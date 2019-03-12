@@ -1,5 +1,5 @@
 body {
-   background-image:url("https://cdn.pbrd.co/images/154yxl92.jpg");
+   background-image: url("https://cdn.pbrd.co/images/154yxl92.jpg");
    background-repeat: no-repeat;
    background-position: center;
    background-attachment: fixed;
@@ -13,30 +13,60 @@ body {
 .info {
  text-align: left
 }
-h1 {
+/* h1 {
   text-align: left;
   font-size: 50pt;
   color: #00FF00;
   font-family:times;
   margin-bottom: 5px;
   text-decoration: bold;
-}
+} */
 th {
   text-align: center
 }
 a {
   color: #CC6633
 }
-a:link, a:visited {
+.header {
+  overflow: hidden;
+  /* background-image: ; */
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+}
+.header h1 {
+  color: #00FF00;
+  float: left;
+  font-size: 50px;
+  font-weight: bold;
+}
+.header a {
+  float: left;
   background-color: #f44336;
   color: white;
   padding: 15px 25px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
 }
-a:hover, a:active {
+.header a:hover {
   background-color: red;
+  color: black;
+}
+.header a.current {
+  background-color: #2679ff;
+  color: white;
+}
+.header a.current:hover {
+  background-color: blue;
+  color: black;
+}
+.header-right {
+  float: right;
+}
+a.email {
+  color: #CC6633
 }
 th {
   padding: 3px;
@@ -62,4 +92,16 @@ table.links {
 }
 table.links  th {
 border: none
+}
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+  .header h1 {
+    font-size: 25px;
 }
