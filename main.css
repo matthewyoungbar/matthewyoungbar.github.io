@@ -65,6 +65,20 @@ a {
 .header-right {
   float: right;
 }
+.footer {
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  /* background-image: ; */
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+}
+.footer a {
+  color: black;
+}
 a.email {
   color: #CC6633
 }
