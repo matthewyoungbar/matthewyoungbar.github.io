@@ -13,14 +13,20 @@ body {
 .info {
  text-align: left
 }
-/* h1 {
+.about h1 {
   text-align: left;
-  font-size: 50pt;
-  color: #00FF00;
+  font-size: 30pt;
   font-family:times;
   margin-bottom: 5px;
   text-decoration: bold;
-} */
+  color: #9fc7c7;
+}
+.about p {
+  text-align: left;
+}
+.about img {
+  float: right;
+}
 th {
   text-align: center
 }
