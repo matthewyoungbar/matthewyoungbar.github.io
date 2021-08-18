@@ -1,3 +1,7 @@
+:root {
+  --background-grey: #393f4d;
+}
+
 body {
    /* background-image: url("https://cdn.pbrd.co/images/154yxl92.jpg"); */
    background-repeat: no-repeat;
@@ -6,7 +10,7 @@ body {
    background-size: contain;
    position: center;
    margin-top: 20px;
-   background-color: #393f4d;
+   background-color: var(--background-grey);
    color: #CCFFFF;
    text-align: center;
  }
@@ -38,6 +42,7 @@ a {
   /* background-image: ; */
   background-color: #d4d4dc;
   padding: 20px 10px;
+  border-radius: 8px;
 }
 .header h1 {
   color: #302d2d;
@@ -132,4 +137,19 @@ border: none
   font-size: 14px;
   left: 20px;
   top: 20px;
+}
+
+.page-frame{
+  display: block;
+  border: none;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.image-blurred-edge {
+    background-image: url('pictures/Matthew.jpg');
+    width: 200px;
+    height: 200px;
+    /* you need to match the shadow color to your background or image border for the desired effect*/
+    box-shadow: 0 0 8px 8px var(--background-grey) inset;
 }
