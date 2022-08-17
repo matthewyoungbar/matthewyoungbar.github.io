@@ -1,0 +1,35 @@
+.header {
+  top: 0;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  height: 20%;
+  padding: 1.5%;
+  box-shadow: 4px;
+  color: white;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 3vw;
+  background-color: #000000;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.icons {
+  position: absolute;
+  top: 23%;
+  right: 2%;
+}
+
+/* https://codepen.io/sosuke/pen/Pjoqqp */
+.icon {
+  /* #813772 */
+  filter: invert(28%) sepia(48%) saturate(722%) hue-rotate(260deg) brightness(91%) contrast(95%);
+  height: 2.5vw;
+  width: 2.5vw;
+  padding: .5vw;
+}
+
+.icon:hover {
+  /* #a83d93 */
+  filter: invert(35%) sepia(30%) saturate(2213%) hue-rotate(271deg) brightness(85%) contrast(90%);
+  cursor: pointer;
+}

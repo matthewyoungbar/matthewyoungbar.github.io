@@ -1,9 +1,13 @@
 import logo from './logo.svg';
+import Header from './components/header/header'
 import './App.css';
+
+// color schemes come from scheme 3 here: https://www.canva.com/learn/website-color-schemes/
 
 function App() {
   return (
     <div className="App">
+      <Header />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
