@@ -1,0 +1,43 @@
+.matthew {
+  background-image: url('../../assets/pictures/matthew.png');
+  background-color: #062F4F;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 12.5vw;
+  padding-bottom: 12.5vw;
+  padding-left: 12.5vw;
+  padding-right: 12.5vw;
+  border-radius: 50%;
+  /* box-shadow: 0 0 10px 2vw #062F4F inset; */
+  border: 10px solid #062F4F;
+  margin: 5px;
+}
+
+.about-me {
+  background-color: #062F4F;
+  padding-left: 20%;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.about-text {
+  padding-top: 7%;
+  text-align: left;
+  line-height: 4vw;
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: white;
+}
+
+.hi {
+  font-size: 2.5vw;
+}
+
+.love {
+  font-size: 1.8vw;
+  font-weight: bold;
+}
+
+.about-paragraph {
+  font-size: 1.8vw;
+  max-width: 35vw;
+}
