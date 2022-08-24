@@ -10,7 +10,7 @@ function Tutoring () {
         <br />
         I have taken and previously mentored for both courses. I can help with homeworks, exam prep, or general studying.
         <br />
-        The standard rate for a 1 hour session is $30. I accept any form of digital payment (Venmo, Apply Pay, Paypal).
+        The standard rate for a 1 hour session is $30. I accept any form of digital payment (Venmo, Apple Pay, Paypal).
       </div>
       <InlineWidget styles={{height: '1200px'}}
         url="https://calendly.com/matthewyoungbar/cs-tutoring?hide_gdpr_banner=1" pageSettings={{
