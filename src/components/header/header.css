@@ -7,7 +7,7 @@
   box-shadow: 4px;
   color: white;
   font-family: "Lucida Console", "Courier New", monospace;
-  font-size: 3vw;
+  font-size: clamp(22px, 3vw, 5vw);
   background-color: #000000;
   white-space: nowrap;
   overflow: hidden;
@@ -24,8 +24,8 @@
 .icon {
   /* #813772 */
   filter: invert(28%) sepia(48%) saturate(722%) hue-rotate(260deg) brightness(91%) contrast(95%);
-  height: 2.5vw;
-  width: 2.5vw;
+  height: clamp(20px, 2.5vw, 5vw);
+  width: clamp(20px, 2.5vw, 5vw);
   padding: .5vw;
 }
 

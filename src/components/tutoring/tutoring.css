@@ -1,0 +1,17 @@
+.tutoring-main {
+  background-color: #062F4F;
+}
+
+.calendly-inline-widget::-webkit-scrollbar {
+    display: none;
+}
+
+.bio-text {
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-top: 2%;
+  text-align: left;
+  line-height: 25px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: white;
+}
