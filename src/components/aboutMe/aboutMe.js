@@ -1,4 +1,5 @@
 import React from 'react';
+import ImageMarquee from '../imageMarquee/imageMarquee'
 import logo from '../../logo.svg';
 import matthew from '../../assets/pictures/matthew.png';
 import './aboutMe.css';
@@ -14,6 +15,7 @@ function AboutMe () {
         <div className="about-paragraph">I'm an engineer, an athlete, and a perpetual student.</div>
       </div>
     </div>
+    <ImageMarquee />
     <header className="App-header">
       <img src={logo} className="App-logo" alt="logo" />
       <p>

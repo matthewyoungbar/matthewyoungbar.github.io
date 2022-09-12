@@ -29,15 +29,15 @@
 }
 
 .hi {
-  font-size: 2.5vw;
+  font-size: clamp(18px, 2.5vw, 25px);
 }
 
 .love {
-  font-size: 1.8vw;
+  font-size: clamp(10px, 1.8vw, 20px);
   font-weight: bold;
 }
 
 .about-paragraph {
-  font-size: 1.8vw;
+  font-size: clamp(10px, 1.8vw, 20px);
   max-width: 35vw;
 }
