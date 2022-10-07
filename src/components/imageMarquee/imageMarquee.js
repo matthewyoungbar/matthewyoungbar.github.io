@@ -17,7 +17,7 @@ import './imageMarquee.css';
 
 function ImageMarquee () {
   return (
-    <Marquee className="marquee-image" gradient={false}>
+    <Marquee className="marquee-image" gradient={false} style={{ position: 'relative', zIndex: '-1' }}>
       <img src={lilo} alt="Lilo the dog"/>
       <img src={freestyle} alt="Swimming Freestyle"/>
       <img src={sign} alt="Matthew sitting on Rensselaer sign"/>
